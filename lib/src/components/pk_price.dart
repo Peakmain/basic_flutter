@@ -6,7 +6,7 @@ import 'package:flutter/cupertino.dart';
  * mail:2726449200@qq.com
  * describe：人民币符号
  */
-class PriceWidget extends StatelessWidget {
+class PkPrice extends StatelessWidget {
   final String? price;
 
   //字体颜色
@@ -24,7 +24,7 @@ class PriceWidget extends StatelessWidget {
   //粗体
   final FontWeight fontWeight;
 
-  const PriceWidget(
+  const PkPrice(
       {super.key,
       this.price,
       this.color = const Color(0xFFCF4444),

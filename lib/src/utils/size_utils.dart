@@ -16,4 +16,9 @@ class SizeUtils {
   static getScreenHeight(BuildContext context) {
     return MediaQuery.of(context).size.height;
   }
+
+  ///获取状态栏的高度
+  static getStatusHeight(BuildContext context) {
+    return MediaQuery.of (context).padding.top;
+  }
 }

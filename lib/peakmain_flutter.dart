@@ -1,4 +1,5 @@
-export 'src/components/price_widget.dart';
+export 'src/components/pk_price.dart';
+export 'src/components/pk_badge.dart';
 
 
 export 'src/utils/log_utils.dart';

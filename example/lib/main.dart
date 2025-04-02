@@ -1,10 +1,7 @@
-import 'dart:io';
-
 import 'package:example/ui_widget.dart';
 import 'package:example/utils_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:peakmain_flutter/peakmain_flutter.dart';
 
 void main() {
   runApp(const MyApp());

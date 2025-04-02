@@ -37,6 +37,9 @@ class PriceWidget extends StatelessWidget {
     if (price == null || price == '') {
       price = "0.00";
     }
+    if(!price.contains(".")){
+      price="$price.00";
+    }
     return price.split(".");
   }
 

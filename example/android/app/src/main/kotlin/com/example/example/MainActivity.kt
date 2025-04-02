@@ -1,4 +1,4 @@
-package com.peakmain.basicui
+package com.example.example
 
 import io.flutter.embedding.android.FlutterActivity
 
